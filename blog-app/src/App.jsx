@@ -46,7 +46,7 @@ function PostPage() {
 
 export default function App() {
   return (
-    <Router basename="/<repo-name>/">
+    <Router basename="/vibeCoding/">
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
