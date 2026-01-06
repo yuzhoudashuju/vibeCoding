@@ -1,5 +1,22 @@
-/* src/index.css */
 body {
   margin: 0;
   font-family: system-ui, -apple-system, BlinkMacSystemFont;
+  background: #f8fafc;
+  color: #334155;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  background: white;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+article, .card {
+  background: white;
+  border-radius: 16px;
+  padding: 24px;
 }
