@@ -1,4 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 body {
+  @apply bg-slate-50 text-slate-700;
   margin: 0;
   font-family: system-ui, -apple-system, BlinkMacSystemFont;
   background: #f8fafc;
